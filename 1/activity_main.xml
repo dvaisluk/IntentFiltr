@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickOpenWebpageButton"
+        android:layout_x="137dp"
+        android:layout_y="360dp"
+        android:text="@string/next"
+        android:id="@+id/button">
+    </Button>
+
+    <EditText
+        android:id="@+id/edsite"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="310dp">
+
+    </EditText>
+
+</AbsoluteLayout>
